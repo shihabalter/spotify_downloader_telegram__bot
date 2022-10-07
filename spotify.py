@@ -158,3 +158,4 @@ def searchsingle(track):
 def searchartist(searchstr):
     results = spotify.search(searchstr)
     return results['tracks']['items'][0]['artists'][0]["external_urls"]['spotify']
+token = '5794992891:AAHwtErUQsvJgxEQdNuHwYUSMiTZ9V60Ot4'
